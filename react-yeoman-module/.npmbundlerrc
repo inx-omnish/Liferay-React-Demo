@@ -1,0 +1,24 @@
+{
+    "create-jar": {
+        "output-dir": "dist",
+        "features": {
+            "js-extender": true,
+            "web-context": "/react-cli-module",
+            "localization": "features/localization/Language",
+            "configuration": "features/configuration.json"
+        }
+    },
+    "dump-report": true,
+    "sources": [
+        "src",
+        "assets"
+    ],
+    "rules": [
+        {
+            "test": "\\.css$",
+            "use": [
+                "css-loader"
+            ]
+        }
+    ]
+}

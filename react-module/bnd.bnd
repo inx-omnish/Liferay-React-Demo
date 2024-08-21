@@ -1,0 +1,7 @@
+Bundle-Name: react-module
+Bundle-SymbolicName: react.module
+Bundle-Version: 1.0.0
+Export-Package: react.module.constants
+Web-ContextPath: /react-module
+-runproperties: \
+   osgi.ee;filter:="(&(osgi.ee=JavaSE)(version=1.8))"
